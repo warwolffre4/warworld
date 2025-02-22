@@ -1,0 +1,223 @@
+---- Minecraft Crash Report ----
+// But it works on my machine.
+
+Time: 2025-02-16 18:52:02
+Description: Ticking entity
+
+java.lang.NoSuchMethodError: 'void net.p3pp3rf1y.sophisticatedcore.upgrades.jukebox.JukeboxUpgradeItem$Wrapper.tick(net.minecraft.class_1309, net.minecraft.class_1937, net.minecraft.class_2338)'
+	at net.p3pp3rf1y.sophisticatedbackpacks.common.EntityBackpackAdditionHandler.lambda$onLivingUpdate$9(EntityBackpackAdditionHandler.java:326)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at net.p3pp3rf1y.sophisticatedbackpacks.common.EntityBackpackAdditionHandler.lambda$onLivingUpdate$10(EntityBackpackAdditionHandler.java:324)
+	at net.p3pp3rf1y.porting_lib.base.util.LazyOptional.ifPresent(LazyOptional.java:97)
+	at net.p3pp3rf1y.sophisticatedbackpacks.common.EntityBackpackAdditionHandler.onLivingUpdate(EntityBackpackAdditionHandler.java:324)
+	at net.p3pp3rf1y.sophisticatedcore.event.common.LivingEntityEvents.lambda$static$2(LivingEntityEvents.java:24)
+	at net.minecraft.class_1309.handler$zob003$sophisticatedcore$tick(class_1309.java:4173)
+	at net.minecraft.class_1309.method_5773(class_1309.java:2380)
+	at net.minecraft.class_1308.method_5773(class_1308.java:351)
+	at net.minecraft.class_1642.method_5773(class_1642.java:235)
+	at net.minecraft.class_3218.method_18762(class_3218.java:739)
+	at net.minecraft.class_1937.method_18472(class_1937.java:480)
+	at net.minecraft.class_3218.method_31420(class_3218.java:385)
+	at net.minecraft.class_5574.method_31791(class_5574.java:54)
+	at net.minecraft.class_3218.method_18765(class_3218.java:353)
+	at net.minecraft.server.MinecraftServer.method_3813(MinecraftServer.java:897)
+	at net.minecraft.class_3176.method_3813(class_3176.java:283)
+	at net.minecraft.server.MinecraftServer.method_3748(MinecraftServer.java:824)
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:671)
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at net.p3pp3rf1y.sophisticatedbackpacks.common.EntityBackpackAdditionHandler.lambda$onLivingUpdate$9(EntityBackpackAdditionHandler.java:326)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at net.p3pp3rf1y.sophisticatedbackpacks.common.EntityBackpackAdditionHandler.lambda$onLivingUpdate$10(EntityBackpackAdditionHandler.java:324)
+	at net.p3pp3rf1y.porting_lib.base.util.LazyOptional.ifPresent(LazyOptional.java:97)
+	at net.p3pp3rf1y.sophisticatedbackpacks.common.EntityBackpackAdditionHandler.onLivingUpdate(EntityBackpackAdditionHandler.java:324)
+	at net.p3pp3rf1y.sophisticatedcore.event.common.LivingEntityEvents.lambda$static$2(LivingEntityEvents.java:24)
+	at net.minecraft.class_1309.handler$zob003$sophisticatedcore$tick(class_1309.java:4173)
+	at net.minecraft.class_1309.method_5773(class_1309.java:2380)
+	at net.minecraft.class_1308.method_5773(class_1308.java:351)
+	at net.minecraft.class_1642.method_5773(class_1642.java:235)
+	at net.minecraft.class_3218.method_18762(class_3218.java:739)
+	at net.minecraft.class_1937.method_18472(class_1937.java:480)
+	at net.minecraft.class_3218.method_31420(class_3218.java:385)
+	at net.minecraft.class_5574.method_31791(class_5574.java:54)
+	at net.minecraft.class_3218.method_18765(class_3218.java:353)
+
+-- Entity being ticked --
+Details:
+	Entity Type: minecraft:zombie (net.minecraft.class_1642)
+	Entity ID: 832
+	Entity Name: Zombie
+	Entity's Exact location: -415.50, -12.00, -311.50
+	Entity's Block location: World: (-416,-12,-312), Section: (at 0,4,8 in -26,-1,-20; chunk contains blocks -416,-64,-320 to -401,319,-305), Region: (-1,-1; contains chunks -32,-32 to -1,-1, blocks -512,-64,-512 to -1,319,-1)
+	Entity's Momentum: 0.00, -0.08, 0.00
+	Entity's Passengers: []
+	Entity's Vehicle: null
+Stacktrace:
+	at net.minecraft.class_1937.method_18472(class_1937.java:480)
+	at net.minecraft.class_3218.method_31420(class_3218.java:385)
+	at net.minecraft.class_5574.method_31791(class_5574.java:54)
+	at net.minecraft.class_3218.method_18765(class_3218.java:353)
+	at net.minecraft.server.MinecraftServer.method_3813(MinecraftServer.java:897)
+	at net.minecraft.class_3176.method_3813(class_3176.java:283)
+	at net.minecraft.server.MinecraftServer.method_3748(MinecraftServer.java:824)
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:671)
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+-- Affected level --
+Details:
+	All players: 1 total; [class_3222['Warwolfth'/75, l='ServerLevel[world]', x=-450.77, y=64.00, z=-282.97]]
+	Chunk stats: 2540
+	Level dimension: minecraft:overworld
+	Level spawn location: World: (-432,64,-336), Section: (at 0,0,0 in -27,4,-21; chunk contains blocks -432,-64,-336 to -417,319,-321), Region: (-1,-1; contains chunks -32,-32 to -1,-1, blocks -512,-64,-512 to -1,319,-1)
+	Level time: 9726 game time, 9726 day time
+	Level name: world
+	Level game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: false
+	Level weather: Rain time: 5470 (now: true), thunder time: 5470 (now: true)
+	Known server brands: fabric
+	Removed feature flags: 
+	Level was modded: true
+	Level storage version: 0x04ABD - Anvil
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.method_3813(MinecraftServer.java:897)
+	at net.minecraft.class_3176.method_3813(class_3176.java:283)
+	at net.minecraft.server.MinecraftServer.method_3748(MinecraftServer.java:824)
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:671)
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.1
+	Minecraft Version ID: 1.20.1
+	Operating System: Linux (amd64) version 6.5.0-1025-azure
+	Java Version: 17.0.14, Ubuntu
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Ubuntu
+	Memory: 1597871568 bytes (1523 MiB) / 5058330624 bytes (4824 MiB) up to 12884901888 bytes (12288 MiB)
+	CPUs: 4
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD EPYC 7763 64-Core Processor
+	Identifier: AuthenticAMD Family 25 Model 1 Stepping 1
+	Microarchitecture: Zen 3
+	Frequency (GHz): -0.00
+	Number of physical packages: 1
+	Number of physical CPUs: 2
+	Number of logical CPUs: 4
+	Graphics card #0 name: unknown
+	Graphics card #0 vendor: unknown
+	Graphics card #0 VRAM (MB): 0.00
+	Graphics card #0 deviceId: unknown
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MB): 7990.52
+	Virtual memory used (MB): 8674.34
+	Swap memory total (MB): 0.00
+	Swap memory used (MB): 0.00
+	JVM Flags: 2 total; -Xms2G -Xmx12G
+	Fabric Mods: 
+		balm-fabric: Balm 7.3.9
+			kuma_api: KumaAPI 20.1.8
+		fabric-api: Fabric API 0.92.3+1.20.1
+			fabric-api-base: Fabric API Base 0.4.31+1802ada577
+			fabric-api-lookup-api-v1: Fabric API Lookup API (v1) 1.6.36+1802ada577
+			fabric-biome-api-v1: Fabric Biome API (v1) 13.0.13+1802ada577
+			fabric-block-api-v1: Fabric Block API (v1) 1.0.11+1802ada577
+			fabric-block-view-api-v2: Fabric BlockView API (v2) 1.0.1+1802ada577
+			fabric-command-api-v1: Fabric Command API (v1) 1.2.34+f71b366f77
+			fabric-command-api-v2: Fabric Command API (v2) 2.2.13+1802ada577
+			fabric-commands-v0: Fabric Commands (v0) 0.2.51+df3654b377
+			fabric-containers-v0: Fabric Containers (v0) 0.1.65+df3654b377
+			fabric-content-registries-v0: Fabric Content Registries (v0) 4.0.12+1802ada577
+			fabric-convention-tags-v1: Fabric Convention Tags 1.5.5+1802ada577
+			fabric-crash-report-info-v1: Fabric Crash Report Info (v1) 0.2.19+1802ada577
+			fabric-data-attachment-api-v1: Fabric Data Attachment API (v1) 1.0.1+de0fd6d177
+			fabric-data-generation-api-v1: Fabric Data Generation API (v1) 12.3.5+1802ada577
+			fabric-dimensions-v1: Fabric Dimensions API (v1) 2.1.54+1802ada577
+			fabric-entity-events-v1: Fabric Entity Events (v1) 1.6.0+1c78457f77
+			fabric-events-interaction-v0: Fabric Events Interaction (v0) 0.6.3+13a40c6677
+			fabric-events-lifecycle-v0: Fabric Events Lifecycle (v0) 0.2.63+df3654b377
+			fabric-game-rule-api-v1: Fabric Game Rule API (v1) 1.0.40+1802ada577
+			fabric-item-api-v1: Fabric Item API (v1) 2.1.28+1802ada577
+			fabric-item-group-api-v1: Fabric Item Group API (v1) 4.0.13+1802ada577
+			fabric-lifecycle-events-v1: Fabric Lifecycle Events (v1) 2.2.22+1802ada577
+			fabric-loot-api-v2: Fabric Loot API (v2) 1.2.2+1802ada577
+			fabric-loot-tables-v1: Fabric Loot Tables (v1) 1.1.46+9e7660c677
+			fabric-message-api-v1: Fabric Message API (v1) 5.1.9+1802ada577
+			fabric-mining-level-api-v1: Fabric Mining Level API (v1) 2.1.51+1802ada577
+			fabric-networking-api-v1: Fabric Networking API (v1) 1.3.12+13a40c6677
+			fabric-networking-v0: Fabric Networking (v0) 0.3.52+df3654b377
+			fabric-object-builder-api-v1: Fabric Object Builder API (v1) 11.1.4+1802ada577
+			fabric-particles-v1: Fabric Particles (v1) 1.1.2+1802ada577
+			fabric-recipe-api-v1: Fabric Recipe API (v1) 1.0.22+1802ada577
+			fabric-registry-sync-v0: Fabric Registry Sync (v0) 2.3.4+1802ada577
+			fabric-rendering-data-attachment-v1: Fabric Rendering Data Attachment (v1) 0.3.37+92a0d36777
+			fabric-rendering-fluids-v1: Fabric Rendering Fluids (v1) 3.0.28+1802ada577
+			fabric-resource-conditions-api-v1: Fabric Resource Conditions API (v1) 2.3.8+1802ada577
+			fabric-resource-loader-v0: Fabric Resource Loader (v0) 0.11.11+fb82e9d777
+			fabric-screen-handler-api-v1: Fabric Screen Handler API (v1) 1.3.31+1802ada577
+			fabric-transfer-api-v1: Fabric Transfer API (v1) 3.3.5+8dd72ea377
+			fabric-transitive-access-wideners-v1: Fabric Transitive Access Wideners (v1) 4.3.1+1802ada577
+		fabricloader: Fabric Loader 0.16.3
+			mixinextras: MixinExtras 0.4.1
+		forgeconfigapiport: Forge Config API Port 8.0.1
+		geckolib: GeckoLib 4 4.4.5
+			com_eliotlash_mclib_mclib: mclib 20
+		gravestones: Gravestones v1.15
+			cloth-config: Cloth Config v11 11.0.99
+				cloth-basic-math: cloth-basic-math 0.6.1
+		jade: Jade 11.12.0+fabric
+		java: OpenJDK 64-Bit Server VM 17
+		justzoom: Just Zoom 2.0.0
+		knightquest: Knight Quest 1.5.0
+		konkrete: Konkrete 1.8.1
+		minecraft: Minecraft 1.20.1
+		mr_dungeons_andtavernsstrongholdrework: Dungeons and Taverns Stronghold Rework 1
+		mutantmonsters: Mutant Monsters 8.0.7
+			cardinal-components-base: Cardinal Components API (base) 5.2.2
+			cardinal-components-entity: Cardinal Components API (entities) 5.2.2
+			extensibleenums: Extensible Enums 7.0.1
+		mvs: Moog's Voyager Structures 4.1.4-1.20-fabric
+		necronomicon: Necronomicon 1.4.2
+		puzzleslib: Puzzles Lib 8.1.25
+			puzzlesaccessapi: Puzzles Access Api 8.0.7
+		sophisticatedbackpacks: Sophisticated Backpacks 1.20.1-3.20.17.1.60
+		sophisticatedcore: Sophisticated Core 1.20.1-1.0.8.1.119
+			porting_lib_extensions: Porting Lib Extensions 2.3.2+1.20.1
+				porting_lib_accessors: Porting Lib Accessors 2.3.2+1.20.1
+				porting_lib_attributes: Porting Lib Attributes 2.3.2+1.20.1
+				porting_lib_common: Porting Lib Common 2.3.2+1.20.1
+				reach-entity-attributes: Reach Entity Attributes 2.4.0
+			porting_lib_fluids: Porting Lib Fluids 2.3.2+1.20.1
+			porting_lib_loot: Porting Lib Loot 2.3.2+1.20.1
+				porting_lib_core: Porting Lib Core 2.3.2+1.20.1
+				porting_lib_lazy_registration: Porting Lib Lazy Register 2.3.2+1.20.1
+			porting_lib_model_loader: Porting Lib Model Loader 2.3.2+1.20.1
+			porting_lib_networking: Porting Lib Networking 2.3.2+1.20.1
+			porting_lib_tool_actions: Porting Lib Tool Actions 2.3.2+1.20.1
+			porting_lib_transfer: Porting Lib Transfer 2.3.2+1.20.1
+			team_reborn_energy: Energy 3.0.0
+		voicechat: Simple Voice Chat 1.20.1-2.5.26
+		waystones: Waystones 14.1.3
+		yet_another_config_lib_v3: YetAnotherConfigLib 3.6.2+1.20.1-fabric
+			com_twelvemonkeys_common_common-image: common-image 3.12.0
+			com_twelvemonkeys_common_common-io: common-io 3.12.0
+			com_twelvemonkeys_common_common-lang: common-lang 3.12.0
+			com_twelvemonkeys_imageio_imageio-core: imageio-core 3.12.0
+			com_twelvemonkeys_imageio_imageio-metadata: imageio-metadata 3.12.0
+			com_twelvemonkeys_imageio_imageio-webp: imageio-webp 3.12.0
+			org_quiltmc_parsers_gson: gson 0.2.1
+			org_quiltmc_parsers_json: json 0.2.1
+	Server Running: true
+	Player Count: 1 / 20; [class_3222['Warwolfth'/75, l='ServerLevel[world]', x=-450.77, y=64.00, z=-282.97]]
+	Data Packs: vanilla, fabric
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Stable
+	Is Modded: Definitely; Server brand changed to 'fabric'
+	Type: Dedicated Server (map_server.txt)
