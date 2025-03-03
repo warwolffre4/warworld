@@ -317,3 +317,4 @@ java.lang.NullPointerException: Cannot invoke "dev.saperate.elementals.elements.
 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
 	at java.lang.Thread.run(Thread.java:840) ~[?:?]
 [16:24:05] [Server thread/INFO]: [STDOUT]: saving benders
+[16:29:05] [Server thread/INFO]: [STDOUT]: saving benders
