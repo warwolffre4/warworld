@@ -2607,6 +2607,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2025-03-03 15:49:11 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/sandstone": {
     "criteria": {
       "has_sand": "2025-03-03 15:30:27 +0000"
@@ -2714,6 +2720,7 @@
       "cooked_porkchop": "2025-03-03 14:46:59 +0000",
       "cooked_mutton": "2025-03-03 14:29:16 +0000",
       "cooked_beef": "2025-03-03 15:07:36 +0000",
+      "bread": "2025-03-03 15:53:31 +0000",
       "golden_carrot": "2025-03-03 15:07:32 +0000",
       "cooked_rabbit": "2025-03-03 14:22:26 +0000"
     },
