@@ -330,3 +330,15 @@ java.lang.NullPointerException: Cannot invoke "dev.saperate.elementals.elements.
 [17:00:15] [Worker-Main-10/WARN]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wooden_wheat_farm
 [17:02:54] [Worker-Main-25/WARN]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wheat_grain_bin
 [17:04:05] [Server thread/INFO]: [STDOUT]: saving benders
+[17:06:05] [Server thread/WARN]: Warwolfth moved wrongly!
+[17:06:20] [Server thread/WARN]: Warwolfth moved wrongly!
+[17:06:22] [Server thread/WARN]: Warwolfth moved wrongly!
+[17:07:20] [Server thread/WARN]: Warwolfth moved wrongly!
+[17:07:23] [Server thread/WARN]: Warwolfth moved wrongly!
+[17:07:29] [Server thread/WARN]: Warwolfth moved wrongly!
+[17:07:37] [Server thread/INFO]: Villager class_1646['Unemployed'/44130, l='ServerLevel[world]', x=1230.28, y=65.50, z=897.37] died, message: 'Unemployed suffocated in a wall'
+[17:07:42] [Server thread/WARN]: Warwolfth moved wrongly!
+[17:07:47] [Server thread/WARN]: Warwolfth moved wrongly!
+[17:07:49] [Server thread/INFO]: Villager class_1646['Unemployed'/44336, l='ServerLevel[world]', x=1284.72, y=64.00, z=912.63] died, message: 'Unemployed suffocated in a wall'
+[17:09:05] [Server thread/INFO]: [STDOUT]: saving benders
+[17:09:25] [Server thread/INFO]: Villager class_1646['Unemployed'/44162, l='ServerLevel[world]', x=1235.06, y=69.00, z=867.30] died, message: 'Unemployed suffocated in a wall'
