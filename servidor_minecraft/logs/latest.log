@@ -318,3 +318,7 @@ java.lang.NullPointerException: Cannot invoke "dev.saperate.elementals.elements.
 	at java.lang.Thread.run(Thread.java:840) ~[?:?]
 [16:24:05] [Server thread/INFO]: [STDOUT]: saving benders
 [16:29:05] [Server thread/INFO]: [STDOUT]: saving benders
+[16:39:05] [Server thread/INFO]: [STDOUT]: saving benders
+[16:41:50] [Server thread/INFO]: Warwolfth has made the advancement [Take Aim]
+[16:44:05] [Server thread/INFO]: [STDOUT]: saving benders
+[16:44:48] [Server thread/INFO]: Warwolfth has made the advancement [Diamonds!]
