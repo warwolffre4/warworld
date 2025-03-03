@@ -324,3 +324,9 @@ java.lang.NullPointerException: Cannot invoke "dev.saperate.elementals.elements.
 [16:44:48] [Server thread/INFO]: Warwolfth has made the advancement [Diamonds!]
 [16:49:05] [Server thread/INFO]: [STDOUT]: saving benders
 [16:54:05] [Server thread/INFO]: [STDOUT]: saving benders
+[16:59:05] [Server thread/INFO]: [STDOUT]: saving benders
+[16:59:32] [Worker-Main-10/WARN]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:nature/short_oak_pathway
+[16:59:32] [Worker-Main-10/WARN]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:nature/short_oak_pathway
+[17:00:15] [Worker-Main-10/WARN]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wooden_wheat_farm
+[17:02:54] [Worker-Main-25/WARN]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wheat_grain_bin
+[17:04:05] [Server thread/INFO]: [STDOUT]: saving benders
