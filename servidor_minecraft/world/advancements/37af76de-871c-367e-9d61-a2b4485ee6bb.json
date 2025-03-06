@@ -3755,6 +3755,12 @@
     },
     "done": true
   },
+  "netherexp:nether/ghost_mucus": {
+    "criteria": {
+      "has_item": "2025-03-06 17:34:51 +0000"
+    },
+    "done": true
+  },
   "travelersbackpack:recipes/misc/iron_smithing": {
     "criteria": {
       "has_iron": "2025-03-06 17:21:55 +0000"
