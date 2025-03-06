@@ -1689,6 +1689,7 @@
       "minecraft:skeleton": "2025-03-03 16:11:32 +0000",
       "minecraft:spider": "2025-03-03 14:26:58 +0000",
       "minecraft:creeper": "2025-03-06 14:55:59 +0000",
+      "minecraft:witch": "2025-03-06 16:18:03 +0000",
       "minecraft:ender_dragon": "2025-02-22 18:50:20 +0000",
       "minecraft:zombie": "2025-03-03 14:49:24 +0000",
       "minecraft:drowned": "2025-03-06 15:58:07 +0000"
@@ -3476,6 +3477,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/ender_pearl": {
+    "criteria": {
+      "has_ender_fragment": "2025-03-06 16:09:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/sentry_armor_trim_smithing_template": {
     "criteria": {
       "has_sentry_armor_trim_smithing_template": "2025-03-06 15:11:23 +0000"
@@ -3503,6 +3510,12 @@
   "minecraft:recipes/redstone/lectern": {
     "criteria": {
       "has_book": "2025-03-06 15:28:26 +0000"
+    },
+    "done": true
+  },
+  "enderzoology:recipes/redstone/ender_charge": {
+    "criteria": {
+      "has_ender_fragment": "2025-03-06 16:09:33 +0000"
     },
     "done": true
   },
