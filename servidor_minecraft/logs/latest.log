@@ -376,3 +376,18 @@
 [17:04:27] [Server thread/INFO]: [STDOUT]: saving benders
 [17:06:10] [Server thread/INFO]: Warwolfth has made the advancement [Sokka's trusty boomerang]
 [17:09:26] [Server thread/INFO]: [STDOUT]: saving benders
+[17:20:55] [Server thread/INFO]: Warwolfth lost connection: Timed out
+[17:20:55] [Server thread/INFO]: Warwolfth left the game
+[17:20:56] [Server thread/WARN]: handleDisconnection() called twice
+[17:21:13] [Server thread/INFO]: Warwolfth[/127.36.226.125:56347] logged in with entity id 42181 at (-143.5, 94.03584062504456, -126.5)
+[17:21:13] [Server thread/INFO]: Syncing config to Warwolfth (37af76de-871c-367e-9d61-a2b4485ee6bb)
+[17:21:13] [Server thread/INFO]: Loading config from file...
+[17:21:13] [Server thread/INFO]: Warwolfth joined the game
+[17:24:27] [Server thread/INFO]: [STDOUT]: saving benders
+[17:25:28] [Server thread/WARN]: Warwolfth moved wrongly!
+[17:25:39] [Server thread/WARN]: Warwolfth moved wrongly!
+[17:27:28] [Server thread/INFO]: Warwolfth was doomed to fall by Mutant Enderman
+[17:27:28] [Server thread/INFO]: Created new backpack backup file for Warwolfth with unique ID travelersbackpack.iron_06.03.2025-17.27.28.dat
+[17:27:35] [Server thread/WARN]: Warwolfth moved wrongly!
+[17:27:38] [Server thread/WARN]: Warwolfth moved wrongly!
+[17:29:26] [Server thread/INFO]: [STDOUT]: saving benders
