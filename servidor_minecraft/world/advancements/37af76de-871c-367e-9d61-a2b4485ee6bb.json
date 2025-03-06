@@ -1992,6 +1992,7 @@
       "cooked_beef": "2025-03-03 15:07:36 +0000",
       "baked_potato": "2025-03-03 15:59:08 +0000",
       "bread": "2025-03-03 15:53:31 +0000",
+      "golden_apple": "2025-03-06 16:24:33 +0000",
       "rotten_flesh": "2025-03-03 16:14:58 +0000",
       "glow_berries": "2025-03-03 16:21:43 +0000",
       "golden_carrot": "2025-03-03 15:07:32 +0000",
@@ -3492,6 +3493,12 @@
   "travelersbackpack:recipes/misc/creeper": {
     "criteria": {
       "has_gunpowder": "2025-03-06 14:56:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_chestplate": "2025-03-06 16:28:42 +0000"
     },
     "done": true
   },
