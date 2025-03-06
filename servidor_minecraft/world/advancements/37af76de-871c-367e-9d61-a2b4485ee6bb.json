@@ -3653,6 +3653,12 @@
     },
     "done": true
   },
+  "elementals:sokka_trusty_boomerang": {
+    "criteria": {
+      "lava_bucket": "2025-03-06 17:06:10 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/fermented_spider_eye": {
     "criteria": {
       "has_spider_eye": "2025-03-06 16:30:05 +0000"
