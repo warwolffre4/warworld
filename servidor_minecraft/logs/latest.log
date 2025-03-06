@@ -1,8 +1,8 @@
-[20:46:48] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.3
-[20:46:49] [ForkJoinPool-1-worker-2/WARN]: Mod elementals uses the version ${version} which isn't compatible with Loader's extended semantic version format (Could not parse version number component '${version}'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[20:46:49] [ForkJoinPool-1-worker-4/WARN]: The mod "necronomicon" contains invalid entries in its mod json:
+[14:29:00] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.3
+[14:29:00] [ForkJoinPool-1-worker-4/WARN]: Mod elementals uses the version ${version} which isn't compatible with Loader's extended semantic version format (Could not parse version number component '${version}'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[14:29:00] [ForkJoinPool-1-worker-1/WARN]: The mod "necronomicon" contains invalid entries in its mod json:
 - Unsupported root entry "credits" at line 10 column 14
-[20:46:49] [main/INFO]: Loading 109 mods:
+[14:29:00] [main/INFO]: Loading 109 mods:
 	- architectury 9.2.14
 	- balm-fabric 7.3.9
 	   \-- kuma_api 20.1.8
@@ -131,146 +131,142 @@
 	   |-- com_twelvemonkeys_imageio_imageio-webp 3.12.0
 	   |-- org_quiltmc_parsers_gson 0.2.1
 	   \-- org_quiltmc_parsers_json 0.2.1
-[20:46:49] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/warworld/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[20:46:49] [main/INFO]: Compatibility level set to JAVA_16
-[20:46:49] [main/INFO]: Compatibility level set to JAVA_17
-[20:46:50] [main/WARN]: Error loading class: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity (java.lang.ClassNotFoundException: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity)
-[20:46:50] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[20:46:58] [main/INFO]: Initialising the cool stuff...
-[20:46:58] [main/INFO]: Constructing common components for enderzoology:main
-[20:46:58] [main/INFO]: Loading common config for enderzoology
-[20:46:58] [Thread-2/INFO]: Reloading common config for enderzoology
-[20:46:58] [Thread-2/INFO]: Reloading common config for enderzoology
-[20:46:58] [main/ERROR]: No data fixer registered for owl_egg
-[20:46:58] [main/ERROR]: No data fixer registered for primed_charge
-[20:46:58] [main/ERROR]: No data fixer registered for concussion_creeper
-[20:46:58] [main/ERROR]: No data fixer registered for infested_zombie
-[20:46:58] [main/ERROR]: No data fixer registered for enderminy
-[20:46:58] [main/ERROR]: No data fixer registered for dire_wolf
-[20:46:58] [main/ERROR]: No data fixer registered for fallen_mount
-[20:46:58] [main/ERROR]: No data fixer registered for wither_cat
-[20:46:58] [main/ERROR]: No data fixer registered for wither_witch
-[20:46:58] [main/ERROR]: No data fixer registered for owl
-[20:46:58] [main/ERROR]: No data fixer registered for fallen_knight
-[20:46:58] [main/WARN]: [JUST ZOOM] Disabling 'Just Zoom' since it's a client-side mod and current environment is server!
-[20:46:58] [main/ERROR]: No data fixer registered for gremlin
-[20:46:58] [main/ERROR]: No data fixer registered for eldbomb
-[20:46:58] [main/ERROR]: No data fixer registered for eldknight
-[20:46:58] [main/ERROR]: No data fixer registered for samhain
-[20:46:58] [main/ERROR]: No data fixer registered for swampman
-[20:46:58] [main/ERROR]: No data fixer registered for ratman
-[20:46:58] [main/ERROR]: No data fixer registered for lizzy
-[20:46:58] [main/ERROR]: No data fixer registered for bad_patch
-[20:46:58] [main/ERROR]: No data fixer registered for ghastling
-[20:46:58] [main/ERROR]: No data fixer registered for ghosty
-[20:46:58] [main/ERROR]: No data fixer registered for netherman
-[20:46:58] [main/ERROR]: No data fixer registered for netherman_clone
-[20:46:58] [main/ERROR]: No data fixer registered for netherman_teleport_charge
-[20:46:58] [main/INFO]: Registering Item Group: knightquest
-[20:46:58] [main/INFO]: Registering sounds for knightquest...
-[20:46:58] [main/INFO]: Registering entities for knightquest
-[20:46:58] [main/INFO]: [KONKRETE] Successfully initialized!
-[20:46:58] [main/INFO]: [KONKRETE] Server-side libs ready to use!
-[20:46:58] [main/ERROR]: No data fixer registered for creeper_minion
-[20:46:58] [main/ERROR]: No data fixer registered for mutant_creeper
-[20:46:58] [main/ERROR]: No data fixer registered for mutant_enderman
-[20:46:58] [main/ERROR]: No data fixer registered for mutant_skeleton
-[20:46:58] [main/ERROR]: No data fixer registered for mutant_snow_golem
-[20:46:58] [main/ERROR]: No data fixer registered for mutant_zombie
-[20:46:58] [main/ERROR]: No data fixer registered for spider_pig
-[20:46:58] [main/ERROR]: No data fixer registered for body_part
-[20:46:58] [main/ERROR]: No data fixer registered for creeper_minion_egg
-[20:46:58] [main/ERROR]: No data fixer registered for endersoul_clone
-[20:46:58] [main/ERROR]: No data fixer registered for endersoul_fragment
-[20:46:58] [main/ERROR]: No data fixer registered for throwable_block
-[20:46:58] [main/INFO]: Constructing common components for mutantmonsters:main
-[20:46:58] [main/INFO]: Loading common config for mutantmonsters
-[20:46:58] [Thread-2/INFO]: Reloading common config for mutantmonsters
-[20:46:58] [main/INFO]: Necronomicon Initialized
-[20:46:58] [main/INFO]: File exists, reading config for elocindev.necronomicon.NecronomiconConfig.
-[20:46:58] [main/INFO]: Config for elocindev.necronomicon.NecronomiconConfig read successfully.
-[20:46:58] [main/ERROR]: No data fixer registered for apparition
-[20:46:58] [main/ERROR]: No data fixer registered for wisp
-[20:46:58] [main/ERROR]: No data fixer registered for vessel
-[20:46:58] [main/ERROR]: No data fixer registered for ecto_slab
-[20:46:58] [main/ERROR]: No data fixer registered for banshee
-[20:46:58] [main/ERROR]: No data fixer registered for stampede
-[20:46:58] [main/ERROR]: No data fixer registered for carcass
-[20:46:58] [main/ERROR]: No data fixer registered for soul_bullet
-[20:46:58] [main/ERROR]: No data fixer registered for blood_drop
-[20:46:58] [main/ERROR]: No data fixer registered for phasmo_arrow
-[20:46:58] [main/ERROR]: No data fixer registered for mist_charge
-[20:46:58] [main/ERROR]: No data fixer registered for grave_cloud
-[20:46:58] [main/ERROR]: No data fixer registered for will_o_wisp
-[20:46:58] [main/ERROR]: No data fixer registered for antidote
-[20:46:58] [main/ERROR]: No data fixer registered for grenade_effect_cloud
-[20:46:59] [main/INFO]: Constructing common components for puzzleslib:main
-[20:46:59] [main/ERROR]: No data fixer registered for 
-[20:46:59] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 81000) with the ID 0
-[20:46:59] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 81000) with the ID 1
-[20:46:59] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 2
-[20:46:59] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:milk for Air (Fluid Amount Required: 81000) with the ID 3
-[20:46:59] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[20:47:00] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
-[20:47:01] [main/INFO]: Loaded 8 recipes
-[20:47:01] [main/ERROR]: Couldn't load tag minecraft:tick as it is missing following references: nova_structures:mobs (from fabric)
-[20:47:01] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/great_chalice: Missing criteria, expected to find a JsonObject
-[20:47:01] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/great_essence_to_small_essence: Missing criteria, expected to find a JsonObject
-[20:47:01] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/totem_of_undying_to_small_essence: Missing criteria, expected to find a JsonObject
-[20:47:01] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/empty_goblet: Missing criteria, expected to find a JsonObject
-[20:47:01] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/small_essence_to_great_essence: Missing criteria, expected to find a JsonObject
-[20:47:01] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/elytra_to_small_essence: Missing criteria, expected to find a JsonObject
-[20:47:01] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/nether_star_to_small_essence: Missing criteria, expected to find a JsonObject
-[20:47:01] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/heart_of_the_sea_to_small_essence: Missing criteria, expected to find a JsonObject
-[20:47:02] [main/INFO]: Loaded 1797 advancements
-[20:47:02] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 58 translation keys
-[20:47:02] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[20:47:02] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
-[20:47:02] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[20:47:02] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[20:47:03] [main/INFO]: Applied 247 biome modifications to 68 of 68 new biomes in 35.51 ms
-[20:47:03] [Server thread/INFO]: Loading server config for mutantmonsters
-[20:47:03] [Thread-2/INFO]: Reloading server config for mutantmonsters
-[20:47:03] [Thread-2/INFO]: Reloading server config for mutantmonsters
-[20:47:03] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[20:47:03] [Server thread/INFO]: Loading properties
-[20:47:03] [Server thread/INFO]: Default game type: SURVIVAL
-[20:47:03] [Server thread/INFO]: Generating keypair
-[20:47:03] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:47:03] [Server thread/INFO]: Using epoll channel type
-[20:47:03] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[20:47:03] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[20:47:03] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[20:47:03] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[20:47:03] [Server thread/INFO]: Preparing level "world"
-[20:47:08] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:47:14] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[20:47:14] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[20:47:14] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:47:14] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:47:14] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:47:14] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:47:14] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:47:14] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:47:14] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:47:14] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:47:14] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:47:14] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:47:14] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:47:14] [Worker-Main-1/INFO]: Preparing spawn area: 3%
-[20:47:15] [Worker-Main-2/INFO]: Preparing spawn area: 62%
-[20:47:15] [Server thread/INFO]: Time elapsed: 7486 ms
-[20:47:15] [Server thread/INFO]: Done (12.394s)! For help, type "help"
-[20:47:15] [Server thread/INFO]: Encoded Weapon Attribute registry size (with package overhead): 17348 bytes (in 2 string chunks with the size of 10000)
-[20:47:15] [Server thread/INFO]: Start loading plugin from Jade
-[20:47:15] [Server thread/INFO]: Start loading plugin from Jade
-[20:47:15] [Server thread/INFO]: Start loading plugin from Jade
-[20:47:15] [Server thread/INFO]: Start loading plugin from Polymer (Core)
-[20:47:15] [Server thread/INFO]: Start loading plugin from Waystones
-[20:49:59] [Server thread/INFO]: Warwolfth[/127.36.226.125:60525] logged in with entity id 176 at (-141.4668232002071, 94.0, -121.7269864060109)
-[20:49:59] [Server thread/INFO]: Syncing config to Warwolfth (37af76de-871c-367e-9d61-a2b4485ee6bb)
-[20:49:59] [Server thread/INFO]: Loading config from file...
-[20:49:59] [Server thread/INFO]: Warwolfth joined the game
-[20:50:50] [Server thread/INFO]: [Warwolfth: Set own game mode to Creative Mode]
-[20:52:15] [Server thread/INFO]: [STDOUT]: saving benders
-[20:55:12] [Server thread/INFO]: [Warwolfth: Set own game mode to Survival Mode]
+[14:29:00] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/warworld/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[14:29:00] [main/INFO]: Compatibility level set to JAVA_16
+[14:29:00] [main/INFO]: Compatibility level set to JAVA_17
+[14:29:01] [main/WARN]: Error loading class: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity (java.lang.ClassNotFoundException: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity)
+[14:29:02] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[14:29:09] [main/INFO]: Initialising the cool stuff...
+[14:29:09] [main/INFO]: Constructing common components for enderzoology:main
+[14:29:09] [main/INFO]: Loading common config for enderzoology
+[14:29:09] [Thread-2/INFO]: Reloading common config for enderzoology
+[14:29:09] [Thread-2/INFO]: Reloading common config for enderzoology
+[14:29:09] [main/ERROR]: No data fixer registered for owl_egg
+[14:29:09] [main/ERROR]: No data fixer registered for primed_charge
+[14:29:09] [main/ERROR]: No data fixer registered for concussion_creeper
+[14:29:09] [main/ERROR]: No data fixer registered for infested_zombie
+[14:29:09] [main/ERROR]: No data fixer registered for enderminy
+[14:29:09] [main/ERROR]: No data fixer registered for dire_wolf
+[14:29:09] [main/ERROR]: No data fixer registered for fallen_mount
+[14:29:09] [main/ERROR]: No data fixer registered for wither_cat
+[14:29:09] [main/ERROR]: No data fixer registered for wither_witch
+[14:29:09] [main/ERROR]: No data fixer registered for owl
+[14:29:09] [main/ERROR]: No data fixer registered for fallen_knight
+[14:29:10] [main/WARN]: [JUST ZOOM] Disabling 'Just Zoom' since it's a client-side mod and current environment is server!
+[14:29:10] [main/ERROR]: No data fixer registered for gremlin
+[14:29:10] [main/ERROR]: No data fixer registered for eldbomb
+[14:29:10] [main/ERROR]: No data fixer registered for eldknight
+[14:29:10] [main/ERROR]: No data fixer registered for samhain
+[14:29:10] [main/ERROR]: No data fixer registered for swampman
+[14:29:10] [main/ERROR]: No data fixer registered for ratman
+[14:29:10] [main/ERROR]: No data fixer registered for lizzy
+[14:29:10] [main/ERROR]: No data fixer registered for bad_patch
+[14:29:10] [main/ERROR]: No data fixer registered for ghastling
+[14:29:10] [main/ERROR]: No data fixer registered for ghosty
+[14:29:10] [main/ERROR]: No data fixer registered for netherman
+[14:29:10] [main/ERROR]: No data fixer registered for netherman_clone
+[14:29:10] [main/ERROR]: No data fixer registered for netherman_teleport_charge
+[14:29:10] [main/INFO]: Registering Item Group: knightquest
+[14:29:10] [main/INFO]: Registering sounds for knightquest...
+[14:29:10] [main/INFO]: Registering entities for knightquest
+[14:29:10] [main/INFO]: [KONKRETE] Successfully initialized!
+[14:29:10] [main/INFO]: [KONKRETE] Server-side libs ready to use!
+[14:29:10] [main/ERROR]: No data fixer registered for creeper_minion
+[14:29:10] [main/ERROR]: No data fixer registered for mutant_creeper
+[14:29:10] [main/ERROR]: No data fixer registered for mutant_enderman
+[14:29:10] [main/ERROR]: No data fixer registered for mutant_skeleton
+[14:29:10] [main/ERROR]: No data fixer registered for mutant_snow_golem
+[14:29:10] [main/ERROR]: No data fixer registered for mutant_zombie
+[14:29:10] [main/ERROR]: No data fixer registered for spider_pig
+[14:29:10] [main/ERROR]: No data fixer registered for body_part
+[14:29:10] [main/ERROR]: No data fixer registered for creeper_minion_egg
+[14:29:10] [main/ERROR]: No data fixer registered for endersoul_clone
+[14:29:10] [main/ERROR]: No data fixer registered for endersoul_fragment
+[14:29:10] [main/ERROR]: No data fixer registered for throwable_block
+[14:29:10] [main/INFO]: Constructing common components for mutantmonsters:main
+[14:29:10] [main/INFO]: Loading common config for mutantmonsters
+[14:29:10] [main/INFO]: Necronomicon Initialized
+[14:29:10] [main/INFO]: File exists, reading config for elocindev.necronomicon.NecronomiconConfig.
+[14:29:10] [main/INFO]: Config for elocindev.necronomicon.NecronomiconConfig read successfully.
+[14:29:10] [main/ERROR]: No data fixer registered for apparition
+[14:29:10] [main/ERROR]: No data fixer registered for wisp
+[14:29:10] [main/ERROR]: No data fixer registered for vessel
+[14:29:10] [main/ERROR]: No data fixer registered for ecto_slab
+[14:29:10] [main/ERROR]: No data fixer registered for banshee
+[14:29:10] [main/ERROR]: No data fixer registered for stampede
+[14:29:10] [main/ERROR]: No data fixer registered for carcass
+[14:29:10] [main/ERROR]: No data fixer registered for soul_bullet
+[14:29:10] [main/ERROR]: No data fixer registered for blood_drop
+[14:29:10] [main/ERROR]: No data fixer registered for phasmo_arrow
+[14:29:10] [main/ERROR]: No data fixer registered for mist_charge
+[14:29:10] [main/ERROR]: No data fixer registered for grave_cloud
+[14:29:10] [main/ERROR]: No data fixer registered for will_o_wisp
+[14:29:10] [main/ERROR]: No data fixer registered for antidote
+[14:29:10] [main/ERROR]: No data fixer registered for grenade_effect_cloud
+[14:29:10] [main/INFO]: Constructing common components for puzzleslib:main
+[14:29:11] [main/ERROR]: No data fixer registered for 
+[14:29:11] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 81000) with the ID 0
+[14:29:11] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 81000) with the ID 1
+[14:29:11] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 2
+[14:29:11] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:milk for Air (Fluid Amount Required: 81000) with the ID 3
+[14:29:11] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[14:29:12] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[14:29:13] [main/INFO]: Loaded 8 recipes
+[14:29:13] [main/ERROR]: Couldn't load tag minecraft:tick as it is missing following references: nova_structures:mobs (from fabric)
+[14:29:13] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/great_chalice: Missing criteria, expected to find a JsonObject
+[14:29:13] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/great_essence_to_small_essence: Missing criteria, expected to find a JsonObject
+[14:29:13] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/totem_of_undying_to_small_essence: Missing criteria, expected to find a JsonObject
+[14:29:13] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/empty_goblet: Missing criteria, expected to find a JsonObject
+[14:29:13] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/small_essence_to_great_essence: Missing criteria, expected to find a JsonObject
+[14:29:13] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/elytra_to_small_essence: Missing criteria, expected to find a JsonObject
+[14:29:13] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/nether_star_to_small_essence: Missing criteria, expected to find a JsonObject
+[14:29:13] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/heart_of_the_sea_to_small_essence: Missing criteria, expected to find a JsonObject
+[14:29:13] [main/INFO]: Loaded 1797 advancements
+[14:29:13] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 58 translation keys
+[14:29:14] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[14:29:14] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[14:29:14] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[14:29:14] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[14:29:14] [main/INFO]: Applied 247 biome modifications to 68 of 68 new biomes in 33.09 ms
+[14:29:14] [Server thread/INFO]: Loading server config for mutantmonsters
+[14:29:14] [Thread-2/INFO]: Reloading server config for mutantmonsters
+[14:29:14] [Thread-2/INFO]: Reloading server config for mutantmonsters
+[14:29:15] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[14:29:15] [Server thread/INFO]: Loading properties
+[14:29:15] [Server thread/INFO]: Default game type: SURVIVAL
+[14:29:15] [Server thread/INFO]: Generating keypair
+[14:29:15] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:29:15] [Server thread/INFO]: Using epoll channel type
+[14:29:15] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:29:15] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:29:15] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:29:15] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:29:15] [Server thread/INFO]: Preparing level "world"
+[14:29:20] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:29:25] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:29:25] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:29:25] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:29:25] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[14:29:25] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:29:25] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:29:25] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:29:25] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:29:25] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[14:29:25] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[14:29:25] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:29:25] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:29:26] [Worker-Main-1/INFO]: Preparing spawn area: 16%
+[14:29:26] [Worker-Main-2/INFO]: Preparing spawn area: 83%
+[14:29:27] [Server thread/INFO]: Time elapsed: 6798 ms
+[14:29:27] [Server thread/INFO]: Done (11.659s)! For help, type "help"
+[14:29:27] [Server thread/INFO]: Encoded Weapon Attribute registry size (with package overhead): 17348 bytes (in 2 string chunks with the size of 10000)
+[14:29:27] [Server thread/INFO]: Start loading plugin from Jade
+[14:29:27] [Server thread/INFO]: Start loading plugin from Jade
+[14:29:27] [Server thread/INFO]: Start loading plugin from Jade
+[14:29:27] [Server thread/INFO]: Start loading plugin from Polymer (Core)
+[14:29:27] [Server thread/INFO]: Start loading plugin from Waystones
+[14:30:11] [Server thread/INFO]: Warwolfth[/127.36.226.125:49243] logged in with entity id 180 at (-143.83260656897116, 94.0, -124.331282512673)
+[14:30:11] [Server thread/INFO]: Syncing config to Warwolfth (37af76de-871c-367e-9d61-a2b4485ee6bb)
+[14:30:11] [Server thread/INFO]: Loading config from file...
+[14:30:11] [Server thread/INFO]: Warwolfth joined the game
+[14:34:27] [Server thread/INFO]: [STDOUT]: saving benders
