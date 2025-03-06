@@ -1690,7 +1690,8 @@
       "minecraft:spider": "2025-03-03 14:26:58 +0000",
       "minecraft:creeper": "2025-03-06 14:55:59 +0000",
       "minecraft:ender_dragon": "2025-02-22 18:50:20 +0000",
-      "minecraft:zombie": "2025-03-03 14:49:24 +0000"
+      "minecraft:zombie": "2025-03-03 14:49:24 +0000",
+      "minecraft:drowned": "2025-03-06 15:58:07 +0000"
     },
     "done": false
   },
@@ -3451,6 +3452,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
+    "criteria": {
+      "has_gold_block": "2025-03-06 16:00:56 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/bookshelf": {
     "criteria": {
       "has_book": "2025-03-06 15:28:26 +0000"
@@ -3484,6 +3491,12 @@
   "minecraft:recipes/redstone/dark_oak_button": {
     "criteria": {
       "has_planks": "2025-03-06 15:33:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/wax_off": {
+    "criteria": {
+      "wax_off": "2025-03-06 16:07:59 +0000"
     },
     "done": true
   },
