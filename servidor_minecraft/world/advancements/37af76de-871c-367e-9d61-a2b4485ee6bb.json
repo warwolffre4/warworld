@@ -1691,6 +1691,7 @@
       "minecraft:creeper": "2025-03-06 14:55:59 +0000",
       "minecraft:witch": "2025-03-06 16:18:03 +0000",
       "minecraft:ender_dragon": "2025-02-22 18:50:20 +0000",
+      "minecraft:enderman": "2025-03-06 16:36:33 +0000",
       "minecraft:zombie": "2025-03-03 14:49:24 +0000",
       "minecraft:drowned": "2025-03-06 15:58:07 +0000"
     },
@@ -3562,6 +3563,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/activator_rail": {
+    "criteria": {
+      "has_rail": "2025-03-06 16:30:31 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/dark_oak_stairs": {
     "criteria": {
       "has_planks": "2025-03-06 15:33:29 +0000"
@@ -3604,9 +3611,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/detector_rail": {
+    "criteria": {
+      "has_rail": "2025-03-06 16:30:31 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dark_oak_door": {
     "criteria": {
       "has_planks": "2025-03-06 15:33:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2025-03-06 16:30:05 +0000"
     },
     "done": true
   },
@@ -3619,6 +3638,18 @@
   "minecraft:recipes/building_blocks/dark_oak_wood": {
     "criteria": {
       "has_log": "2025-03-06 15:11:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli": {
+    "criteria": {
+      "has_lapis_block": "2025-03-06 16:33:30 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/enderman": {
+    "criteria": {
+      "has_ender_pearl": "2025-03-06 16:36:36 +0000"
     },
     "done": true
   },
@@ -3673,6 +3704,12 @@
   "minecraft:recipes/decorations/dark_oak_sign": {
     "criteria": {
       "has_planks": "2025-03-06 15:33:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/powered_rail": {
+    "criteria": {
+      "has_rail": "2025-03-06 16:30:31 +0000"
     },
     "done": true
   },
