@@ -344,3 +344,7 @@
 [16:43:45] [Server thread/INFO]: Warwolfth has reached the goal [Non-renewable? Yeah, right..]
 [16:44:05] [Server thread/INFO]: [Warwolfth: Set own game mode to Survival Mode]
 [16:45:50] [Server thread/INFO]: [STDOUT]: saving benders
+[16:48:26] [Server thread/INFO]: Named entity MutantZombie['PEPINO'/35033, l='ServerLevel[world]', x=-25.46, y=71.00, z=101.16] died: PEPINO died
+[16:50:50] [Server thread/INFO]: [STDOUT]: saving benders
+[16:52:26] [Server thread/INFO]: Named entity MutantSkeleton['CHAMO'/36408, l='ServerLevel[world]', x=-24.60, y=90.00, z=113.61] died: CHAMO was slain by Warwolfth
+[16:55:50] [Server thread/INFO]: [STDOUT]: saving benders
