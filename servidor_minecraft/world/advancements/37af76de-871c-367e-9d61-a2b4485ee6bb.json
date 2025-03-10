@@ -3803,6 +3803,12 @@
     },
     "done": true
   },
+  "netherexp:nether/non_renewable_yeah_right": {
+    "criteria": {
+      "killed_entity": "2025-03-10 16:43:45 +0000"
+    },
+    "done": true
+  },
   "netherexp:recipes/sanctum/gargoyle_statue": {
     "criteria": {
       "has_item": "2025-03-10 14:35:21 +0000"
@@ -3854,6 +3860,12 @@
   "minecraft:recipes/building_blocks/polished_blackstone_bricks_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2025-03-10 15:14:03 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/diamond_smithing": {
+    "criteria": {
+      "has_diamond": "2025-03-10 16:38:06 +0000"
     },
     "done": true
   },
