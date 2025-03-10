@@ -322,3 +322,6 @@
 [15:02:29] [Worker-Main-34/WARN]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wheat_grain_bin
 [15:05:04] [Server thread/WARN]: Warwolfth moved wrongly!
 [15:05:50] [Server thread/INFO]: [STDOUT]: saving benders
+[15:07:59] [Server thread/WARN]: Warwolfth moved wrongly!
+[15:10:50] [Server thread/INFO]: [STDOUT]: saving benders
+[15:15:50] [Server thread/INFO]: [STDOUT]: saving benders
