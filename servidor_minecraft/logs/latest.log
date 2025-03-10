@@ -291,3 +291,15 @@
 [14:32:00] [Server thread/INFO]: Created new backpack backup file for Warwolfth with unique ID travelersbackpack.lapis_10.03.2025-14.32.00.dat
 [14:34:04] [Server thread/WARN]: Warwolfth moved wrongly!
 [14:35:50] [Server thread/INFO]: [STDOUT]: saving benders
+[14:38:34] [Worker-Main-10/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[14:38:34] [Worker-Main-10/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[14:38:34] [Worker-Main-10/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[14:38:34] [Worker-Main-10/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[14:38:34] [Worker-Main-10/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[14:38:34] [Worker-Main-10/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[14:40:50] [Server thread/INFO]: [STDOUT]: saving benders
+[14:42:07] [Server thread/WARN]: Warwolfth moved wrongly!
+[14:42:08] [Server thread/WARN]: Warwolfth moved wrongly!
+[14:42:10] [Server thread/WARN]: Warwolfth moved wrongly!
+[14:42:14] [Server thread/WARN]: Warwolfth moved wrongly!
+[14:45:50] [Server thread/INFO]: [STDOUT]: saving benders
