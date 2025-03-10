@@ -337,3 +337,5 @@
 [15:40:50] [Server thread/INFO]: [STDOUT]: saving benders
 [16:05:50] [Server thread/INFO]: [STDOUT]: saving benders
 [16:25:50] [Server thread/INFO]: [STDOUT]: saving benders
+[16:33:04] [Worker-Main-108/WARN]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wooden_wheat_farm
+[16:35:50] [Server thread/INFO]: [STDOUT]: saving benders
