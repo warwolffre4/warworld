@@ -3869,6 +3869,12 @@
     },
     "done": true
   },
+  "netherexp:recipes/basalt/slab": {
+    "criteria": {
+      "has_item": "2025-03-10 15:26:44 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_blackstone_stairs_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2025-03-10 15:14:03 +0000"
@@ -3923,6 +3929,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/smooth_basalt": {
+    "criteria": {
+      "has_basalt": "2025-03-10 15:26:44 +0000"
+    },
+    "done": true
+  },
   "netherexp:recipes/soul_slate/pale": {
     "criteria": {
       "has_planks": "2025-03-10 14:36:50 +0000"
@@ -3971,6 +3983,12 @@
     },
     "done": true
   },
+  "netherexp:recipes/basalt/stairs": {
+    "criteria": {
+      "has_item": "2025-03-10 15:26:44 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2025-03-10 15:14:03 +0000"
@@ -3986,6 +4004,12 @@
   "minecraft:recipes/building_blocks/polished_blackstone_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2025-03-10 15:14:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt_from_basalt_stonecutting": {
+    "criteria": {
+      "has_basalt": "2025-03-10 15:26:44 +0000"
     },
     "done": true
   },
@@ -4049,6 +4073,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_basalt": {
+    "criteria": {
+      "has_basalt": "2025-03-10 15:26:44 +0000"
+    },
+    "done": true
+  },
   "netherexp:recipes/soul_slate_bricks/wall": {
     "criteria": {
       "has_planks": "2025-03-10 14:43:54 +0000"
@@ -4064,6 +4094,12 @@
   "netherexp:recipes/soul_slate/bricks_from_etched": {
     "criteria": {
       "has_item": "2025-03-10 14:36:50 +0000"
+    },
+    "done": true
+  },
+  "netherexp:recipes/basalt/wall": {
+    "criteria": {
+      "has_item": "2025-03-10 15:26:44 +0000"
     },
     "done": true
   },
