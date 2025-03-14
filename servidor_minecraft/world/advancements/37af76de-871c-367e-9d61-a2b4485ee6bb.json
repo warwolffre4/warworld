@@ -1695,8 +1695,10 @@
       "minecraft:ghast": "2025-03-10 15:19:57 +0000",
       "minecraft:magma_cube": "2025-03-10 15:19:20 +0000",
       "minecraft:spider": "2025-03-03 14:26:58 +0000",
+      "minecraft:piglin_brute": "2025-03-14 15:14:48 +0000",
       "minecraft:creeper": "2025-03-06 14:55:59 +0000",
       "minecraft:witch": "2025-03-06 16:18:03 +0000",
+      "minecraft:wither_skeleton": "2025-03-14 15:07:13 +0000",
       "minecraft:ender_dragon": "2025-02-22 18:50:20 +0000",
       "minecraft:enderman": "2025-03-06 16:36:33 +0000",
       "minecraft:zombie": "2025-03-03 14:49:24 +0000",
@@ -4212,6 +4214,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-03-14 15:14:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-03-14 15:14:11 +0000"
+    },
+    "done": true
+  },
   "netherexp:recipes/nether_bricks/blue/nether_bricks": {
     "criteria": {
       "has_item": "2025-03-14 14:54:54 +0000"
@@ -4221,6 +4235,24 @@
   "minecraft:recipes/brewing/magma_cream": {
     "criteria": {
       "has_blaze_powder": "2025-03-14 14:57:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
+    "criteria": {
+      "has_netherite_upgrade_smithing_template": "2025-03-14 15:15:28 +0000"
+    },
+    "done": true
+  },
+  "netherexp:recipes/blackstone/twisting": {
+    "criteria": {
+      "has_item": "2025-03-14 15:14:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
+    "criteria": {
+      "has_ancient_debris": "2025-03-14 15:08:57 +0000"
     },
     "done": true
   },
@@ -4236,9 +4268,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cracked_polished_blackstone_bricks": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-03-14 15:14:11 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/nether_brick_slab": {
     "criteria": {
       "has_nether_bricks": "2025-03-14 14:54:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap": {
+    "criteria": {
+      "has_ancient_debris": "2025-03-14 15:08:57 +0000"
     },
     "done": true
   },
@@ -4248,15 +4292,33 @@
     },
     "done": true
   },
+  "netherexp:recipes/blackstone/weeping": {
+    "criteria": {
+      "has_item": "2025-03-14 15:14:11 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/fire_charge": {
     "criteria": {
       "has_blaze_powder": "2025-03-14 14:57:05 +0000"
     },
     "done": true
   },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2025-03-14 15:08:57 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/red_nether_bricks": {
     "criteria": {
       "has_item": "2025-03-14 14:54:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-03-14 15:14:11 +0000"
     },
     "done": true
   },
@@ -4290,6 +4352,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-03-14 15:14:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-03-14 15:14:11 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/ender_eye": {
     "criteria": {
       "has_blaze_powder": "2025-03-14 14:57:05 +0000"
@@ -4311,6 +4385,12 @@
   "minecraft:recipes/brewing/blaze_powder": {
     "criteria": {
       "has_blaze_rod": "2025-03-14 14:56:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-03-14 15:14:11 +0000"
     },
     "done": true
   },
