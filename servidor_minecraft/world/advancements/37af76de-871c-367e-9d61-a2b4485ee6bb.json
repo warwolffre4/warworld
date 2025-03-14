@@ -1702,10 +1702,14 @@
       "minecraft:witch": "2025-03-06 16:18:03 +0000",
       "minecraft:wither_skeleton": "2025-03-14 15:07:13 +0000",
       "minecraft:ender_dragon": "2025-02-22 18:50:20 +0000",
+      "minecraft:cave_spider": "2025-03-14 17:43:55 +0000",
       "minecraft:piglin": "2025-03-14 15:41:42 +0000",
       "minecraft:enderman": "2025-03-06 16:36:33 +0000",
+      "minecraft:silverfish": "2025-03-14 17:38:31 +0000",
+      "minecraft:endermite": "2025-03-14 17:38:39 +0000",
       "minecraft:zombie": "2025-03-03 14:49:24 +0000",
-      "minecraft:drowned": "2025-03-06 15:58:07 +0000"
+      "minecraft:drowned": "2025-03-06 15:58:07 +0000",
+      "minecraft:zombie_villager": "2025-03-14 17:42:16 +0000"
     },
     "done": false
   },
@@ -4460,6 +4464,108 @@
   "minecraft:adventure/trim_with_any_armor_pattern": {
     "criteria": {
       "armor_trimmed_minecraft:sentry_armor_trim_smithing_template_smithing_trim": "2025-03-14 17:23:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/eye_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-03-14 17:39:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_wall": {
+    "criteria": {
+      "has_stone_bricks": "2025-03-14 17:38:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2025-03-14 17:48:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_stone_bricks": {
+    "criteria": {
+      "has_stone_bricks": "2025-03-14 17:38:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-03-14 17:38:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs": {
+    "criteria": {
+      "has_stone_bricks": "2025-03-14 17:38:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks": {
+    "criteria": {
+      "has_end_stone": "2025-03-14 17:48:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks": {
+    "criteria": {
+      "has_tag": "2025-03-14 17:38:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_wall_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-03-14 17:38:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-03-14 17:38:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab": {
+    "criteria": {
+      "has_stone_bricks": "2025-03-14 17:38:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/eye_armor_trim_smithing_template": {
+    "criteria": {
+      "has_eye_armor_trim_smithing_template": "2025-03-14 17:39:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-03-14 17:38:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2025-03-14 17:48:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2025-03-14 17:37:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2025-03-14 17:48:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2025-03-14 17:48:21 +0000"
     },
     "done": true
   },

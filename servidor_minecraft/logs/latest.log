@@ -318,3 +318,15 @@
 [17:24:39] [Server thread/INFO]: Loading config from file...
 [17:24:39] [Server thread/INFO]: Warwolfth joined the game
 [17:29:14] [Server thread/INFO]: [STDOUT]: saving benders
+[17:32:09] [Server thread/WARN]: Warwolfth moved wrongly!
+[17:32:44] [Worker-Main-201/WARN]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wooden_wheat_farm
+[17:34:14] [Server thread/INFO]: [STDOUT]: saving benders
+[17:34:51] [Worker-Main-203/WARN]: Empty or non-existent pool: minecraft:stronghold/stronghold_generic_complex
+[17:34:51] [Worker-Main-203/WARN]: Empty or non-existent pool: minecraft:stronghold/stronghold_generic_complex
+[17:35:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 23489ms or 469 ticks behind
+[17:35:35] [Worker-Main-195/WARN]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wheat_grain_bin
+[17:35:44] [Server thread/INFO]: Villager class_1646['Unemployed'/33918, l='ServerLevel[world]', x=4161.28, y=81.00, z=1967.37] died, message: 'Unemployed suffocated in a wall'
+[17:37:06] [Server thread/INFO]: Warwolfth has made the advancement [Eye Spy]
+[17:39:37] [Server thread/INFO]: [STDOUT]: saving benders
+[17:47:21] [Server thread/WARN]: Warwolfth moved wrongly!
+[17:49:37] [Server thread/INFO]: [STDOUT]: saving benders
