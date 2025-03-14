@@ -1701,6 +1701,7 @@
       "minecraft:witch": "2025-03-06 16:18:03 +0000",
       "minecraft:wither_skeleton": "2025-03-14 15:07:13 +0000",
       "minecraft:ender_dragon": "2025-02-22 18:50:20 +0000",
+      "minecraft:piglin": "2025-03-14 15:41:42 +0000",
       "minecraft:enderman": "2025-03-06 16:36:33 +0000",
       "minecraft:zombie": "2025-03-03 14:49:24 +0000",
       "minecraft:drowned": "2025-03-06 15:58:07 +0000"
@@ -4323,6 +4324,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/ol_betsy": {
+    "criteria": {
+      "shot_crossbow": "2025-03-14 15:43:53 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/nether_brick_fence": {
     "criteria": {
       "has_nether_bricks": "2025-03-14 14:54:54 +0000"
@@ -4395,6 +4402,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2025-03-14 15:49:57 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/nether_brick_slab_from_nether_bricks_stonecutting": {
     "criteria": {
       "has_nether_bricks": "2025-03-14 14:54:54 +0000"
@@ -4410,6 +4423,12 @@
   "netherexp:recipes/misc/cooked_hogham": {
     "criteria": {
       "has_item": "2025-03-14 15:24:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/spectral_arrow": {
+    "criteria": {
+      "has_glowstone_dust": "2025-03-14 15:49:57 +0000"
     },
     "done": true
   },
