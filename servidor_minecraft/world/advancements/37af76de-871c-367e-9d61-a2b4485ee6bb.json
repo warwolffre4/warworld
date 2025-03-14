@@ -33,6 +33,7 @@
       "minecraft:windswept_forest": "2025-03-03 14:31:31 +0000",
       "minecraft:old_growth_spruce_taiga": "2025-03-10 15:03:25 +0000",
       "minecraft:snowy_beach": "2025-03-03 14:43:11 +0000",
+      "minecraft:old_growth_birch_forest": "2025-03-14 17:08:28 +0000",
       "minecraft:deep_dark": "2025-03-03 16:37:27 +0000",
       "minecraft:windswept_gravelly_hills": "2025-03-03 14:44:56 +0000",
       "minecraft:plains": "2025-03-03 14:43:59 +0000"
@@ -4360,6 +4361,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2025-03-14 17:15:36 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting": {
     "criteria": {
       "has_polished_blackstone_bricks": "2025-03-14 15:14:11 +0000"
@@ -4429,6 +4436,12 @@
   "minecraft:recipes/combat/spectral_arrow": {
     "criteria": {
       "has_glowstone_dust": "2025-03-14 15:49:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2025-03-14 17:15:36 +0000"
     },
     "done": true
   },
