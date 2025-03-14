@@ -303,3 +303,18 @@
 [16:53:28] [Server thread/INFO]: [STDOUT]: saving benders
 [17:08:28] [Server thread/INFO]: [STDOUT]: saving benders
 [17:13:28] [Server thread/INFO]: [STDOUT]: saving benders
+[17:23:10] [Server thread/INFO]: Warwolfth has made the advancement [Crafting a New Look]
+[17:23:52] [Worker-Main-203/WARN]: Empty or non-existent pool: minecraft:stronghold/stronghold_generic_complex
+[17:23:52] [Worker-Main-203/WARN]: Empty or non-existent pool: minecraft:stronghold/stronghold_generic_complex
+[17:24:10] [Worker-Main-201/WARN]: Empty or non-existent pool: minecraft:stronghold/stronghold_generic_complex
+[17:24:10] [Worker-Main-201/WARN]: Empty or non-existent pool: minecraft:stronghold/stronghold_generic_complex
+[17:24:24] [Worker-Main-193/WARN]: Empty or non-existent pool: minecraft:stronghold/stronghold_generic_complex
+[17:24:24] [Worker-Main-193/WARN]: Empty or non-existent pool: minecraft:stronghold/stronghold_generic_complex
+[17:24:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 45870ms or 917 ticks behind
+[17:24:38] [Server thread/INFO]: Warwolfth lost connection: Disconnected
+[17:24:38] [Server thread/INFO]: Warwolfth left the game
+[17:24:39] [Server thread/INFO]: Warwolfth[/127.41.13.103:34481] logged in with entity id 30606 at (4346.1875972881, 63.0, 653.1706451626296)
+[17:24:39] [Server thread/INFO]: Syncing config to Warwolfth (37af76de-871c-367e-9d61-a2b4485ee6bb)
+[17:24:39] [Server thread/INFO]: Loading config from file...
+[17:24:39] [Server thread/INFO]: Warwolfth joined the game
+[17:29:14] [Server thread/INFO]: [STDOUT]: saving benders
