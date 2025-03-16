@@ -1,332 +1,70 @@
-[14:37:53] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.3
-[14:37:53] [ForkJoinPool-1-worker-4/WARN]: Mod elementals uses the version ${version} which isn't compatible with Loader's extended semantic version format (Could not parse version number component '${version}'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[14:37:53] [ForkJoinPool-1-worker-2/WARN]: The mod "necronomicon" contains invalid entries in its mod json:
-- Unsupported root entry "credits" at line 10 column 14
-[14:37:54] [main/INFO]: Loading 109 mods:
-	- architectury 9.2.14
-	- balm-fabric 7.3.9
-	   \-- kuma_api 20.1.8
-	- bettercombat 1.8.6+1.20.1
-	- cardinal-components 5.2.3
-	   |-- cardinal-components-base 5.2.3
-	   |-- cardinal-components-block 5.2.3
-	   |-- cardinal-components-chunk 5.2.3
-	   |-- cardinal-components-entity 5.2.3
-	   |-- cardinal-components-item 5.2.3
-	   |-- cardinal-components-level 5.2.3
-	   |-- cardinal-components-scoreboard 5.2.3
-	   \-- cardinal-components-world 5.2.3
-	- cloth-config 11.1.136
-	   \-- cloth-basic-math 0.6.1
-	- combatroll 1.3.3+1.20.1
-	- elementals ${version}
-	- enderzoology 8.0.2
-	- fabric-api 0.92.3+1.20.1
-	   |-- fabric-api-base 0.4.31+1802ada577
-	   |-- fabric-api-lookup-api-v1 1.6.36+1802ada577
-	   |-- fabric-biome-api-v1 13.0.13+1802ada577
-	   |-- fabric-block-api-v1 1.0.11+1802ada577
-	   |-- fabric-block-view-api-v2 1.0.1+1802ada577
-	   |-- fabric-blockrenderlayer-v1 1.1.41+1802ada577
-	   |-- fabric-client-tags-api-v1 1.1.2+1802ada577
-	   |-- fabric-command-api-v1 1.2.34+f71b366f77
-	   |-- fabric-command-api-v2 2.2.13+1802ada577
-	   |-- fabric-commands-v0 0.2.51+df3654b377
-	   |-- fabric-containers-v0 0.1.65+df3654b377
-	   |-- fabric-content-registries-v0 4.0.12+1802ada577
-	   |-- fabric-convention-tags-v1 1.5.5+1802ada577
-	   |-- fabric-crash-report-info-v1 0.2.19+1802ada577
-	   |-- fabric-data-attachment-api-v1 1.0.1+de0fd6d177
-	   |-- fabric-data-generation-api-v1 12.3.5+1802ada577
-	   |-- fabric-dimensions-v1 2.1.54+1802ada577
-	   |-- fabric-entity-events-v1 1.6.0+1c78457f77
-	   |-- fabric-events-interaction-v0 0.6.3+13a40c6677
-	   |-- fabric-events-lifecycle-v0 0.2.63+df3654b377
-	   |-- fabric-game-rule-api-v1 1.0.40+1802ada577
-	   |-- fabric-item-api-v1 2.1.28+1802ada577
-	   |-- fabric-item-group-api-v1 4.0.13+1802ada577
-	   |-- fabric-key-binding-api-v1 1.0.37+1802ada577
-	   |-- fabric-keybindings-v0 0.2.35+df3654b377
-	   |-- fabric-lifecycle-events-v1 2.2.22+1802ada577
-	   |-- fabric-loot-api-v2 1.2.2+1802ada577
-	   |-- fabric-loot-tables-v1 1.1.46+9e7660c677
-	   |-- fabric-message-api-v1 5.1.9+1802ada577
-	   |-- fabric-mining-level-api-v1 2.1.51+1802ada577
-	   |-- fabric-model-loading-api-v1 1.0.3+1802ada577
-	   |-- fabric-models-v0 0.4.2+9386d8a777
-	   |-- fabric-networking-api-v1 1.3.12+13a40c6677
-	   |-- fabric-networking-v0 0.3.52+df3654b377
-	   |-- fabric-object-builder-api-v1 11.1.4+1802ada577
-	   |-- fabric-particles-v1 1.1.2+1802ada577
-	   |-- fabric-recipe-api-v1 1.0.22+1802ada577
-	   |-- fabric-registry-sync-v0 2.3.4+1802ada577
-	   |-- fabric-renderer-api-v1 3.2.1+1802ada577
-	   |-- fabric-renderer-indigo 1.5.2+85287f9f77
-	   |-- fabric-renderer-registries-v1 3.2.46+df3654b377
-	   |-- fabric-rendering-data-attachment-v1 0.3.37+92a0d36777
-	   |-- fabric-rendering-fluids-v1 3.0.28+1802ada577
-	   |-- fabric-rendering-v0 1.1.49+df3654b377
-	   |-- fabric-rendering-v1 3.0.8+1802ada577
-	   |-- fabric-resource-conditions-api-v1 2.3.8+1802ada577
-	   |-- fabric-resource-loader-v0 0.11.11+fb82e9d777
-	   |-- fabric-screen-api-v1 2.0.8+1802ada577
-	   |-- fabric-screen-handler-api-v1 1.3.31+1802ada577
-	   |-- fabric-sound-api-v1 1.0.13+1802ada577
-	   |-- fabric-transfer-api-v1 3.3.5+8dd72ea377
-	   \-- fabric-transitive-access-wideners-v1 4.3.1+1802ada577
+[17:26:07] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.3
+[17:26:07] [main/INFO]: Loading 4 mods:
 	- fabricloader 0.16.3
 	   \-- mixinextras 0.4.1
-	- forgeconfigapiport 8.0.1
-	- geckolib 4.4.5
-	   \-- com_eliotlash_mclib_mclib 20
-	- jade 11.12.0+fabric
 	- java 17
-	- jei 15.20.0.106
-	- justzoom 2.0.0
-	- knightquest 1.5.0
-	- konkrete 1.8.1
 	- minecraft 1.20.1
-	- mr_dungeons_andtavernsstrongholdrework 1
-	- mutantmonsters 8.0.7
-	   \-- extensibleenums 7.0.1
-	- mvs 4.1.4-1.20-fabric
-	- necronomicon 1.4.2
-	- netherexp 2.1.3
-	   \-- mixinextras 0.4.1
-	- player-animator 1.0.2-rc1+1.20
-	- puzzleslib 8.1.25
-	   \-- puzzlesaccessapi 8.0.7
-	- terrablender 3.0.1.7
-	   |-- com_electronwill_night-config_core 3.6.7
-	   \-- com_electronwill_night-config_toml 3.6.7
-	- travelersbackpack 9.1.28
-	   \-- reach-entity-attributes 2.4.0
-	- trinkets 3.7.2
-	- universal-graves 3.0.3+1.20.1
-	   |-- common-protection-api 1.0.0
-	   |-- fabric-permissions-api-v0 0.2-SNAPSHOT
-	   |-- placeholder-api 2.1.3+1.20.1
-	   |-- polymer-core 0.5.19+1.20.1
-	   |    |-- polymer-networking 0.5.19+1.20.1
-	   |    |    \-- polymer-common 0.5.19+1.20.1
-	   |    |         \-- packet_tweaker 0.4.0+1.19.4
-	   |    \-- polymer-registry-sync-manipulator 0.5.19+1.20.1
-	   |-- polymer-resource-pack 0.5.19+1.20.1
-	   |    \-- polymer-common 0.5.19+1.20.1
-	   |         \-- packet_tweaker 0.4.0+1.19.4
-	   |-- polymer-virtual-entity 0.5.19+1.20.1
-	   |    \-- polymer-common 0.5.19+1.20.1
-	   |         \-- packet_tweaker 0.4.0+1.19.4
-	   |-- predicate-api 0.2.1+1.20.1
-	   |-- server_translations_api 2.0.0+1.20
-	   |    \-- packet_tweaker 0.4.0+1.19.4
-	   \-- sgui 1.2.2+1.20
-	- waystones 14.1.3
-	- yet_another_config_lib_v3 3.6.2+1.20.1-fabric
-	   |-- com_twelvemonkeys_common_common-image 3.12.0
-	   |-- com_twelvemonkeys_common_common-io 3.12.0
-	   |-- com_twelvemonkeys_common_common-lang 3.12.0
-	   |-- com_twelvemonkeys_imageio_imageio-core 3.12.0
-	   |-- com_twelvemonkeys_imageio_imageio-metadata 3.12.0
-	   |-- com_twelvemonkeys_imageio_imageio-webp 3.12.0
-	   |-- org_quiltmc_parsers_gson 0.2.1
-	   \-- org_quiltmc_parsers_json 0.2.1
-[14:37:54] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/warworld/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[14:37:54] [main/INFO]: Compatibility level set to JAVA_16
-[14:37:54] [main/INFO]: Compatibility level set to JAVA_17
-[14:37:55] [main/WARN]: Error loading class: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity (java.lang.ClassNotFoundException: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity)
-[14:37:56] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[14:38:05] [main/INFO]: Initialising the cool stuff...
-[14:38:05] [main/INFO]: Constructing common components for enderzoology:main
-[14:38:05] [main/INFO]: Loading common config for enderzoology
-[14:38:05] [main/ERROR]: No data fixer registered for owl_egg
-[14:38:05] [main/ERROR]: No data fixer registered for primed_charge
-[14:38:05] [main/ERROR]: No data fixer registered for concussion_creeper
-[14:38:05] [main/ERROR]: No data fixer registered for infested_zombie
-[14:38:05] [main/ERROR]: No data fixer registered for enderminy
-[14:38:05] [main/ERROR]: No data fixer registered for dire_wolf
-[14:38:05] [main/ERROR]: No data fixer registered for fallen_mount
-[14:38:05] [main/ERROR]: No data fixer registered for wither_cat
-[14:38:05] [main/ERROR]: No data fixer registered for wither_witch
-[14:38:05] [main/ERROR]: No data fixer registered for owl
-[14:38:05] [main/ERROR]: No data fixer registered for fallen_knight
-[14:38:05] [main/WARN]: [JUST ZOOM] Disabling 'Just Zoom' since it's a client-side mod and current environment is server!
-[14:38:05] [main/ERROR]: No data fixer registered for gremlin
-[14:38:05] [main/ERROR]: No data fixer registered for eldbomb
-[14:38:05] [main/ERROR]: No data fixer registered for eldknight
-[14:38:05] [main/ERROR]: No data fixer registered for samhain
-[14:38:05] [main/ERROR]: No data fixer registered for swampman
-[14:38:05] [main/ERROR]: No data fixer registered for ratman
-[14:38:05] [main/ERROR]: No data fixer registered for lizzy
-[14:38:05] [main/ERROR]: No data fixer registered for bad_patch
-[14:38:05] [main/ERROR]: No data fixer registered for ghastling
-[14:38:05] [main/ERROR]: No data fixer registered for ghosty
-[14:38:05] [main/ERROR]: No data fixer registered for netherman
-[14:38:05] [main/ERROR]: No data fixer registered for netherman_clone
-[14:38:05] [main/ERROR]: No data fixer registered for netherman_teleport_charge
-[14:38:05] [main/INFO]: Registering Item Group: knightquest
-[14:38:05] [main/INFO]: Registering sounds for knightquest...
-[14:38:05] [main/INFO]: Registering entities for knightquest
-[14:38:05] [main/INFO]: [KONKRETE] Successfully initialized!
-[14:38:05] [main/INFO]: [KONKRETE] Server-side libs ready to use!
-[14:38:05] [main/ERROR]: No data fixer registered for creeper_minion
-[14:38:05] [main/ERROR]: No data fixer registered for mutant_creeper
-[14:38:05] [main/ERROR]: No data fixer registered for mutant_enderman
-[14:38:05] [main/ERROR]: No data fixer registered for mutant_skeleton
-[14:38:05] [main/ERROR]: No data fixer registered for mutant_snow_golem
-[14:38:05] [main/ERROR]: No data fixer registered for mutant_zombie
-[14:38:05] [main/ERROR]: No data fixer registered for spider_pig
-[14:38:05] [main/ERROR]: No data fixer registered for body_part
-[14:38:05] [main/ERROR]: No data fixer registered for creeper_minion_egg
-[14:38:05] [main/ERROR]: No data fixer registered for endersoul_clone
-[14:38:05] [main/ERROR]: No data fixer registered for endersoul_fragment
-[14:38:05] [main/ERROR]: No data fixer registered for throwable_block
-[14:38:05] [main/INFO]: Constructing common components for mutantmonsters:main
-[14:38:05] [main/INFO]: Loading common config for mutantmonsters
-[14:38:05] [Thread-2/INFO]: Reloading common config for mutantmonsters
-[14:38:05] [Thread-2/INFO]: Reloading common config for mutantmonsters
-[14:38:05] [main/INFO]: Necronomicon Initialized
-[14:38:05] [main/INFO]: File exists, reading config for elocindev.necronomicon.NecronomiconConfig.
-[14:38:05] [main/INFO]: Config for elocindev.necronomicon.NecronomiconConfig read successfully.
-[14:38:05] [main/ERROR]: No data fixer registered for apparition
-[14:38:05] [main/ERROR]: No data fixer registered for wisp
-[14:38:05] [main/ERROR]: No data fixer registered for vessel
-[14:38:05] [main/ERROR]: No data fixer registered for ecto_slab
-[14:38:05] [main/ERROR]: No data fixer registered for banshee
-[14:38:05] [main/ERROR]: No data fixer registered for stampede
-[14:38:05] [main/ERROR]: No data fixer registered for carcass
-[14:38:05] [main/ERROR]: No data fixer registered for soul_bullet
-[14:38:05] [main/ERROR]: No data fixer registered for blood_drop
-[14:38:05] [main/ERROR]: No data fixer registered for phasmo_arrow
-[14:38:05] [main/ERROR]: No data fixer registered for mist_charge
-[14:38:05] [main/ERROR]: No data fixer registered for grave_cloud
-[14:38:05] [main/ERROR]: No data fixer registered for will_o_wisp
-[14:38:05] [main/ERROR]: No data fixer registered for antidote
-[14:38:05] [main/ERROR]: No data fixer registered for grenade_effect_cloud
-[14:38:06] [main/INFO]: Constructing common components for puzzleslib:main
-[14:38:07] [main/ERROR]: No data fixer registered for 
-[14:38:07] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 81000) with the ID 0
-[14:38:07] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 81000) with the ID 1
-[14:38:07] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 2
-[14:38:07] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:milk for Air (Fluid Amount Required: 81000) with the ID 3
-[14:38:08] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[14:38:09] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
-[14:38:10] [main/INFO]: Loaded 8 recipes
-[14:38:10] [main/ERROR]: Couldn't load tag minecraft:tick as it is missing following references: nova_structures:mobs (from fabric)
-[14:38:10] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/great_chalice: Missing criteria, expected to find a JsonObject
-[14:38:10] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/great_essence_to_small_essence: Missing criteria, expected to find a JsonObject
-[14:38:10] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/totem_of_undying_to_small_essence: Missing criteria, expected to find a JsonObject
-[14:38:10] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/empty_goblet: Missing criteria, expected to find a JsonObject
-[14:38:10] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/small_essence_to_great_essence: Missing criteria, expected to find a JsonObject
-[14:38:10] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/elytra_to_small_essence: Missing criteria, expected to find a JsonObject
-[14:38:10] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/nether_star_to_small_essence: Missing criteria, expected to find a JsonObject
-[14:38:10] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/heart_of_the_sea_to_small_essence: Missing criteria, expected to find a JsonObject
-[14:38:10] [main/INFO]: Loaded 1797 advancements
-[14:38:10] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 58 translation keys
-[14:38:12] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[14:38:12] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
-[14:38:12] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[14:38:12] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[14:38:12] [main/INFO]: Applied 247 biome modifications to 68 of 68 new biomes in 64.52 ms
-[14:38:12] [Server thread/INFO]: Loading server config for mutantmonsters
-[14:38:12] [Thread-2/INFO]: Reloading server config for mutantmonsters
-[14:38:12] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[14:38:12] [Server thread/INFO]: Loading properties
-[14:38:12] [Server thread/INFO]: Default game type: SURVIVAL
-[14:38:12] [Server thread/INFO]: Generating keypair
-[14:38:12] [Server thread/INFO]: Starting Minecraft server on *:25565
-[14:38:12] [Server thread/INFO]: Using epoll channel type
-[14:38:13] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[14:38:13] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[14:38:13] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[14:38:13] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[14:38:13] [Server thread/INFO]: Preparing level "world"
-[14:38:19] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[14:38:27] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[14:38:27] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[14:38:27] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[14:38:27] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[14:38:27] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[14:38:27] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[14:38:27] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[14:38:27] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[14:38:27] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[14:38:27] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[14:38:27] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[14:38:27] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[14:38:27] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[14:38:27] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[14:38:27] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[14:38:27] [Worker-Main-1/INFO]: Preparing spawn area: 4%
-[14:38:27] [Worker-Main-1/INFO]: Preparing spawn area: 44%
-[14:38:28] [Worker-Main-3/INFO]: Preparing spawn area: 88%
-[14:38:28] [Server thread/INFO]: Time elapsed: 8572 ms
-[14:38:28] [Server thread/INFO]: Done (15.508s)! For help, type "help"
-[14:38:28] [Server thread/INFO]: Encoded Weapon Attribute registry size (with package overhead): 17348 bytes (in 2 string chunks with the size of 10000)
-[14:38:28] [Server thread/INFO]: Start loading plugin from Jade
-[14:38:28] [Server thread/INFO]: Start loading plugin from Jade
-[14:38:28] [Server thread/INFO]: Start loading plugin from Jade
-[14:38:28] [Server thread/INFO]: Start loading plugin from Polymer (Core)
-[14:38:28] [Server thread/INFO]: Start loading plugin from Waystones
-[14:39:06] [Server thread/INFO]: Warwolfth[/127.41.13.103:55201] logged in with entity id 136 at (-141.05505222800406, 94.0, -123.70556621985344)
-[14:39:06] [Server thread/INFO]: Syncing config to Warwolfth (37af76de-871c-367e-9d61-a2b4485ee6bb)
-[14:39:06] [Server thread/INFO]: Loading config from file...
-[14:39:06] [Server thread/INFO]: Warwolfth joined the game
-[14:43:28] [Server thread/INFO]: [STDOUT]: saving benders
-[14:46:10] [Server thread/INFO]: Warwolfth has made the advancement [Hot Stuff]
-[14:53:28] [Server thread/INFO]: [STDOUT]: saving benders
-[14:54:15] [Server thread/INFO]: Warwolfth has made the advancement [A Terrible Fortress]
-[14:56:55] [Server thread/INFO]: Warwolfth has made the advancement [Into Fire]
-[14:58:28] [Server thread/INFO]: [STDOUT]: saving benders
-[15:03:28] [Server thread/INFO]: [STDOUT]: saving benders
-[15:08:28] [Server thread/INFO]: [STDOUT]: saving benders
-[15:08:57] [Server thread/INFO]: Warwolfth has made the advancement [Hidden in the Depths]
-[15:13:28] [Server thread/INFO]: [STDOUT]: saving benders
-[15:18:28] [Server thread/INFO]: [STDOUT]: saving benders
-[15:23:28] [Server thread/INFO]: [STDOUT]: saving benders
-[15:25:21] [Server thread/WARN]: Warwolfth moved wrongly!
-[15:28:28] [Server thread/INFO]: [STDOUT]: saving benders
-[15:33:28] [Server thread/INFO]: [STDOUT]: saving benders
-[15:38:28] [Server thread/INFO]: [STDOUT]: saving benders
-[15:38:30] [Server thread/INFO]: Warwolfth was slain by Gremlin
-[15:38:30] [Server thread/INFO]: Created new backpack backup file for Warwolfth with unique ID travelersbackpack.coal_14.03.2025-15.38.30.dat
-[15:43:28] [Server thread/INFO]: [STDOUT]: saving benders
-[15:43:53] [Server thread/INFO]: Warwolfth has made the advancement [Ol' Betsy]
-[15:48:28] [Server thread/INFO]: [STDOUT]: saving benders
-[15:50:45] [Server thread/WARN]: Warwolfth moved wrongly!
-[15:53:28] [Server thread/INFO]: [STDOUT]: saving benders
-[16:03:28] [Server thread/INFO]: [STDOUT]: saving benders
-[16:18:14] [Server thread/WARN]: Warwolfth moved wrongly!
-[16:18:16] [Server thread/WARN]: Warwolfth moved wrongly!
-[16:18:28] [Server thread/INFO]: [STDOUT]: saving benders
-[16:40:22] [Worker-Main-2/WARN]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wooden_wheat_farm
-[16:53:28] [Server thread/INFO]: [STDOUT]: saving benders
-[17:08:28] [Server thread/INFO]: [STDOUT]: saving benders
-[17:13:28] [Server thread/INFO]: [STDOUT]: saving benders
-[17:23:10] [Server thread/INFO]: Warwolfth has made the advancement [Crafting a New Look]
-[17:23:52] [Worker-Main-203/WARN]: Empty or non-existent pool: minecraft:stronghold/stronghold_generic_complex
-[17:23:52] [Worker-Main-203/WARN]: Empty or non-existent pool: minecraft:stronghold/stronghold_generic_complex
-[17:24:10] [Worker-Main-201/WARN]: Empty or non-existent pool: minecraft:stronghold/stronghold_generic_complex
-[17:24:10] [Worker-Main-201/WARN]: Empty or non-existent pool: minecraft:stronghold/stronghold_generic_complex
-[17:24:24] [Worker-Main-193/WARN]: Empty or non-existent pool: minecraft:stronghold/stronghold_generic_complex
-[17:24:24] [Worker-Main-193/WARN]: Empty or non-existent pool: minecraft:stronghold/stronghold_generic_complex
-[17:24:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 45870ms or 917 ticks behind
-[17:24:38] [Server thread/INFO]: Warwolfth lost connection: Disconnected
-[17:24:38] [Server thread/INFO]: Warwolfth left the game
-[17:24:39] [Server thread/INFO]: Warwolfth[/127.41.13.103:34481] logged in with entity id 30606 at (4346.1875972881, 63.0, 653.1706451626296)
-[17:24:39] [Server thread/INFO]: Syncing config to Warwolfth (37af76de-871c-367e-9d61-a2b4485ee6bb)
-[17:24:39] [Server thread/INFO]: Loading config from file...
-[17:24:39] [Server thread/INFO]: Warwolfth joined the game
-[17:29:14] [Server thread/INFO]: [STDOUT]: saving benders
-[17:32:09] [Server thread/WARN]: Warwolfth moved wrongly!
-[17:32:44] [Worker-Main-201/WARN]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wooden_wheat_farm
-[17:34:14] [Server thread/INFO]: [STDOUT]: saving benders
-[17:34:51] [Worker-Main-203/WARN]: Empty or non-existent pool: minecraft:stronghold/stronghold_generic_complex
-[17:34:51] [Worker-Main-203/WARN]: Empty or non-existent pool: minecraft:stronghold/stronghold_generic_complex
-[17:35:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 23489ms or 469 ticks behind
-[17:35:35] [Worker-Main-195/WARN]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wheat_grain_bin
-[17:35:44] [Server thread/INFO]: Villager class_1646['Unemployed'/33918, l='ServerLevel[world]', x=4161.28, y=81.00, z=1967.37] died, message: 'Unemployed suffocated in a wall'
-[17:37:06] [Server thread/INFO]: Warwolfth has made the advancement [Eye Spy]
-[17:39:37] [Server thread/INFO]: [STDOUT]: saving benders
-[17:47:21] [Server thread/WARN]: Warwolfth moved wrongly!
-[17:49:37] [Server thread/INFO]: [STDOUT]: saving benders
+[17:26:07] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/warworld/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[17:26:12] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17:26:14] [main/INFO]: Loaded 7 recipes
+[17:26:14] [main/INFO]: Loaded 1271 advancements
+[17:26:15] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[17:26:15] [Server thread/INFO]: Loading properties
+[17:26:15] [Server thread/INFO]: Default game type: SURVIVAL
+[17:26:15] [Server thread/INFO]: Generating keypair
+[17:26:15] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:26:15] [Server thread/INFO]: Using epoll channel type
+[17:26:15] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:26:15] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:26:15] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:26:15] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:26:15] [Server thread/INFO]: Preparing level "world"
+[17:26:20] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:26:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:26:21] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[17:26:22] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[17:26:22] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:26:23] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:26:23] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[17:26:23] [Worker-Main-2/INFO]: Preparing spawn area: 1%
+[17:26:24] [Worker-Main-1/INFO]: Preparing spawn area: 1%
+[17:26:25] [Worker-Main-1/INFO]: Preparing spawn area: 3%
+[17:26:25] [Worker-Main-2/INFO]: Preparing spawn area: 4%
+[17:26:25] [Worker-Main-2/INFO]: Preparing spawn area: 5%
+[17:26:26] [Worker-Main-1/INFO]: Preparing spawn area: 6%
+[17:26:26] [Worker-Main-2/INFO]: Preparing spawn area: 9%
+[17:26:27] [Worker-Main-3/INFO]: Preparing spawn area: 9%
+[17:26:27] [Worker-Main-2/INFO]: Preparing spawn area: 11%
+[17:26:28] [Worker-Main-2/INFO]: Preparing spawn area: 13%
+[17:26:28] [Worker-Main-1/INFO]: Preparing spawn area: 15%
+[17:26:29] [Worker-Main-1/INFO]: Preparing spawn area: 17%
+[17:26:29] [Worker-Main-1/INFO]: Preparing spawn area: 19%
+[17:26:30] [Worker-Main-1/INFO]: Preparing spawn area: 22%
+[17:26:30] [Worker-Main-2/INFO]: Preparing spawn area: 25%
+[17:26:31] [Worker-Main-3/INFO]: Preparing spawn area: 28%
+[17:26:31] [Worker-Main-3/INFO]: Preparing spawn area: 30%
+[17:26:32] [Worker-Main-2/INFO]: Preparing spawn area: 32%
+[17:26:32] [Worker-Main-1/INFO]: Preparing spawn area: 34%
+[17:26:33] [Worker-Main-3/INFO]: Preparing spawn area: 37%
+[17:26:33] [Worker-Main-1/INFO]: Preparing spawn area: 41%
+[17:26:34] [Worker-Main-2/INFO]: Preparing spawn area: 43%
+[17:26:34] [Worker-Main-1/INFO]: Preparing spawn area: 45%
+[17:26:35] [Worker-Main-2/INFO]: Preparing spawn area: 48%
+[17:26:35] [Worker-Main-2/INFO]: Preparing spawn area: 51%
+[17:26:36] [Worker-Main-2/INFO]: Preparing spawn area: 55%
+[17:26:36] [Worker-Main-3/INFO]: Preparing spawn area: 57%
+[17:26:37] [Worker-Main-2/INFO]: Preparing spawn area: 60%
+[17:26:37] [Worker-Main-2/INFO]: Preparing spawn area: 64%
+[17:26:38] [Worker-Main-1/INFO]: Preparing spawn area: 68%
+[17:26:38] [Worker-Main-3/INFO]: Preparing spawn area: 70%
+[17:26:39] [Worker-Main-2/INFO]: Preparing spawn area: 72%
+[17:26:39] [Worker-Main-3/INFO]: Preparing spawn area: 75%
+[17:26:40] [Worker-Main-1/INFO]: Preparing spawn area: 79%
+[17:26:40] [Worker-Main-1/INFO]: Preparing spawn area: 83%
+[17:26:41] [Worker-Main-2/INFO]: Preparing spawn area: 85%
+[17:26:41] [Worker-Main-2/INFO]: Preparing spawn area: 87%
+[17:26:42] [Worker-Main-1/INFO]: Preparing spawn area: 90%
+[17:26:42] [Worker-Main-1/INFO]: Preparing spawn area: 94%
+[17:26:43] [Worker-Main-1/INFO]: Preparing spawn area: 98%
+[17:26:43] [Server thread/INFO]: Time elapsed: 22714 ms
+[17:26:43] [Server thread/INFO]: Done (28.365s)! For help, type "help"
